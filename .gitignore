@@ -1,0 +1,10 @@
+bin/
+obj/
+publish/
+*.zip
+spike-files/
+.vs/
+.idea/
+*.user
+TestResults/
+.DS_Store
