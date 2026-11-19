@@ -10,6 +10,9 @@
     <InternalsVisibleTo Include="OdcAgentFileInspector.Tests" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\AgentFileInspector.png" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.7.0" />
     <PackageReference Include="OutSystems.ExternalLibraries.SDK.FileStorage" Version="1.2.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.*" />

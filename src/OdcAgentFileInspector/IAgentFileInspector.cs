@@ -4,7 +4,8 @@ namespace OdcAgentFileInspector;
 
 [OSInterface(
     Name = "AgentFileInspector",
-    Description = "Streaming grep, line-range reader and outline extractor over ODC File values for AI agents.")]
+    Description = "Streaming grep, line-range reader and outline extractor over ODC File values for AI agents.",
+    IconResourceName = "OdcAgentFileInspector.Resources.AgentFileInspector.png")]
 public interface IAgentFileInspector
 {
     [OSAction(Description = "Streams an ODC File and returns 1-based matching lines with optional before/after context.")]

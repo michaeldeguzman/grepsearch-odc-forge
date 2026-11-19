@@ -156,7 +156,7 @@ If your wrappers log tool calls, remember that the output is file content. If yo
 ## Build and test
 
 ```bash
-./build.sh                 # tests (84), publish, AgentFileInspector.zip
+./build.sh                 # tests (85), publish, AgentFileInspector.zip
 ./tools/make-fixtures.sh   # 1 MB and 20 MB synthetic logs and a Markdown spec in spike-files/ (gitignored)
 dotnet test --filter "Category=Perf"   # 50 MB scan, excluded from build.sh
 ```
